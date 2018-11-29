@@ -5,8 +5,7 @@ title.textContent = 'My Activites list';
 // 2: Set the color of the <h1> to a different color
 title.style.color = "red";
 
-// 3: Set the content of the '.desc' paragraph
-// The content should include at least one HTML tag
+// 3: Set the content of the '.desc' paragraph, the content should include at least one HTML tag
 const paragraph = document.querySelector('.desc');
 paragraph.innerHTML = "It's gonna be a song list";
 
@@ -24,8 +23,7 @@ for (let i = 0; i < checkboxes.length; i ++){
   checkboxes[i].type = 'checkbox';
 }
 
-// 7: Create a <button> element, and set its text to 'Delete'
-// Add the <button> inside the '.extra' <div>
+// 7: Create a <button> element, and set its text to 'Delete', and adding the <button> inside the '.extra' <div>
 const deleteButton = document.createElement('button');
 const extraDiv = document.querySelector('.extra');
 deleteButton.innerHTML = 'Delete';
